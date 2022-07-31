@@ -13,6 +13,7 @@
 		"test": "run-p --race dev cy:run"
 	},
 	"dependencies": {
+		"@artemis69/iconic-svelte": "^1.5.0-next.2",
 		"axios": "^0.19.2",
 		"compression": "^1.7.1",
 		"polka": "^0.5.0",
@@ -24,6 +25,7 @@
 		"@babel/plugin-transform-runtime": "^7.0.0",
 		"@babel/preset-env": "^7.0.0",
 		"@babel/runtime": "^7.0.0",
+		"@iconify/svelte": "^2.2.1",
 		"@rollup/plugin-alias": "^3.0.1",
 		"@tsconfig/svelte": "^1.0.2",
 		"@types/compression": "^1.7.0",
@@ -36,13 +38,16 @@
 		"rollup-plugin-commonjs": "^10.1.0",
 		"rollup-plugin-node-resolve": "^5.2.0",
 		"rollup-plugin-replace": "^2.0.0",
+		"rollup-plugin-string": "^3.0.0",
 		"rollup-plugin-svelte": "^5.0.1",
 		"rollup-plugin-terser": "^6.1.0",
 		"rollup-plugin-typescript2": "^0.27.1",
 		"sapper": "^0.27.0",
 		"sass": "^1.26.10",
 		"svelte": "^3.12.1",
+		"svelte-icon": "^1.2.4",
 		"svelte-preprocess": "^4.0.8",
+		"tabler-icons-svelte": "^1.8.0",
 		"typescript": "^3.4.5"
 	}
 }
