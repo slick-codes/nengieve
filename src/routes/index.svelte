@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div class="page">
-	<h1 class="title lowercase">Typed Sappy and Sassy Svelte Template.</h1>
+	<h1 class="title text-orange-600">Typed Sappy and Sassy Svelte Template.</h1>
 </div>
 
 <style lang="scss">
