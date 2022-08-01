@@ -15,13 +15,15 @@
 		background: $background-white;
 
 		&__container {
-			width: 100%;
+			width: 90%;
 			padding: 0.6em 1em;
 			max-width: $max-width;
+			font-size: 0.7rem;
+			font-weight: bold;
 		}
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 750px) {
 		.details {
 			display: none;
 		}
