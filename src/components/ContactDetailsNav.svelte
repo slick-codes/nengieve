@@ -23,7 +23,7 @@
 		}
 	}
 
-	@media (max-width: 750px) {
+	@media (max-width: 768px) {
 		.details {
 			display: none;
 		}
