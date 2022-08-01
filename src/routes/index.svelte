@@ -1,29 +1,15 @@
-<script context="module" lang="ts">
-	export async function preload(page, session) {
-		console.log('preload!', page, session)
-	}
-</script>
-
 <script lang="ts">
 </script>
 
-<svelte:head>
-	<title>Typed Sappy and Sassy Svelte Template</title>
-</svelte:head>
-
-<div class="page">
-	<h1 class="title text-orange-600">Typed Sappy and Sassy Svelte Template.</h1>
-</div>
+<main>
+	<header>hello</header>
+</main>
 
 <style lang="scss">
-	@import './../styles/_sassy';
-
-	.page {
-		@include flex(column, center, center);
+	@import './../styles/config';
+	header {
+		height: 100em;
 		width: 100%;
-		height: 100%;
-		.title {
-			font-size: 3em;
-		}
+		background-color: $primary-color;
 	}
 </style>
