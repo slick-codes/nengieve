@@ -5,15 +5,15 @@
 	const toggleNavigation = () => (isNavVisible = !isNavVisible)
 </script>
 
-<nav class="navigation flex sticky  top-0 justify-center w-full">
+<nav class="navigation flex sticky  top-0 justify-center w-fsectionl">
 	<div
 		class="navigation__container flex items-center justify-between 
-		w-full absolute bg-white mt-6 px-4 py-3"
+		w-fsectionl absolute bg-white mt-6 px-4 py-3"
 	>
-		<ul class="justify-center items-center">
+		<section class="justify-center items-center">
 			<li><img src="/images/logo.png" alt="Nengieve Official Logo" /></li>
-		</ul>
-		<ul
+		</section>
+		<section
 			class="nav__link-container font-bold md:static md:flex fixed top-0 right-0 flex items-center ml-9"
 			class:hidden={!isNavVisible ? 'hidden' : ''}
 		>
@@ -37,8 +37,8 @@
 					<a href="/" class="uppercase text-sm">faq</a>
 				</li>
 			</div>
-		</ul>
-		<ul class="hidden align-center justify-center md:flex">
+		</section>
+		<section class="hidden align-center justify-center md:flex">
 			<div class="socialicon flex justify-center align-center">
 				<li class="flex align-center">
 					<a href="/" class="px-2">
@@ -56,10 +56,10 @@
 					</a>
 				</li>
 			</div>
-		</ul>
-		<ul class="flex md:hidden text-xl" on:click={toggleNavigation}>
+		</section>
+		<section class="flex md:hidden text-xl" on:click={toggleNavigation}>
 			<Icon icon="fluent:navigation-16-regular" />
-		</ul>
+		</section>
 	</div>
 </nav>
 
@@ -79,7 +79,7 @@
 		@media (max-width: 768px) {
 			.navigation {
 				&__container {
-					padding: 1em 3em;
+					padding: 1em 2em;
 				}
 			}
 			.nav__link-container {
@@ -96,7 +96,7 @@
 				}
 
 				.nav__content {
-					margin-top: 5.8em;
+					margin-top: 6.3em;
 					width: 90%;
 					max-width: $max-width;
 					background: white;
